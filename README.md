@@ -1,4 +1,5 @@
 # Assessment-2
+### Question 1
 ```
 1.Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
 class Animal{
@@ -29,6 +30,7 @@ This means that a Bird object has all the properties that an Animal object has, 
 I am walking
 I am flying I am singing
 ```
+### Code:
 ```
 class Animal{
     void walk(){
@@ -53,8 +55,10 @@ public class Solution
     }
 }
 ```
+### Output:
 <img width="155" alt="1" src="https://user-images.githubusercontent.com/93427089/226132792-13f99a15-d0d4-4d77-a79f-2efb052e466b.png">
 
+### Question 2
 ```
 2. Create a class named 'Member' having the following members:
 Data members
@@ -66,6 +70,7 @@ Data members
 It also has a method named 'printSalary' which prints the salary of the members.
 Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
 ```
+### Code:
 ```
 class Member {
     String name;
@@ -123,8 +128,10 @@ public class Main {
     }
 }
 ```
+### Output:
 <img width="212" alt="2" src="https://user-images.githubusercontent.com/93427089/226132810-e1a19509-4e20-4e40-bad9-f2b5fcb1cb86.png">
 
+### Question 3
 ```
  3.Write a program that would print the information (name, year of joining, salary, address) of three employees by creating a class named 'Employee'. The output should be as follows:
 Name        Year of joining        Address
@@ -132,6 +139,7 @@ Robert            1994                64C- WallsStreat
 Sam                2000                68D- WallsStreat
 John                1999                26B- WallsStreat
 ```
+### Code:
 ```
 class employee
 {
@@ -177,11 +185,14 @@ public class Mainemployee
     }
 }
 ```
+### Output:
 <img width="306" alt="3" src="https://user-images.githubusercontent.com/93427089/226132824-e7cadddd-484b-4000-99c1-dc04aa3bd246.png">
 
+### Question 4
 ```
 4.Define a method to calculate power of a number raised to other i.e. ab using recursion where the numbers 'a' and 'b' are to be entered by the user
 ```
+### Code:
 ```
 import java.util.Scanner;
 public class Power {
@@ -205,8 +216,10 @@ public class Power {
     }
 }
 ```
+### Output:
 <img width="181" alt="4" src="https://user-images.githubusercontent.com/93427089/226132833-6ac92470-e04b-47cd-90a1-6f94d0652bfe.png">
 
+### Question 5
 ```
 5.The Matrix class has methods for each of the following:
 1 - get the number of rows
@@ -215,6 +228,7 @@ public class Power {
 4 - adding two matrices. If the matrices are not addable, "Matrices cannot be added" will be displayed.
 5 - multiplying the two matrices
 ```
+### Code:
 ```
 import java.util.Scanner;
 public class TwoMatrix {
@@ -304,6 +318,7 @@ class Matrix {
     }
 }
 ```
+### Output:
 <img width="214" alt="5" src="https://user-images.githubusercontent.com/93427089/226132844-4a7e17b4-ac16-4cd3-bc50-e6b764051946.png">
 
 
